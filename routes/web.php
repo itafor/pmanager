@@ -15,9 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('phonebook', function () {
-    return view('phonebook');
-});
+
+
+Route::get('/{name}', function () {
+   return view('phonebook');
+})->where('name','[A-Za-z]+');
+
+Route::resource('/phonebook', 'PhonebookController');
+Route::post('/getBooks', 'PhonebookController@getBooks');
+
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');

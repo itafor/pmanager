@@ -383,6 +383,7 @@ class ComposerStaticInite14788f743cdd1aef0208fcb09e65229
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\MaritalStatus' => __DIR__ . '/../..' . '/app/MaritalStatus.php',
+        'App\\Phonebook' => __DIR__ . '/../..' . '/app/Phonebook.php',
         'App\\Post' => __DIR__ . '/../..' . '/app/Post.php',
         'App\\Product' => __DIR__ . '/../..' . '/app/Product.php',
         'App\\Project' => __DIR__ . '/../..' . '/app/Project.php',

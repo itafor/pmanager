@@ -27,7 +27,6 @@ let MyFooter = require('./components/MyFooter.vue');
 let Home = require('./components/Home.vue');
 let About = require('./components/About.vue');
 
-let Add = require('./components/Add.vue');
 
 const routes = [
     { path: '/home', component: Home },

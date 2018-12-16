@@ -12,10 +12,10 @@
     <div id="app">
         <my-header></my-header>
         <div class="container">
+           
             <router-view></router-view>
-            <Add></Add>
+            
         </div>
-        
 
         <my-footer></my-footer>
     </div>

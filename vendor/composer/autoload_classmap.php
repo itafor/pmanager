@@ -38,6 +38,7 @@ return array(
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\MaritalStatus' => $baseDir . '/app/MaritalStatus.php',
+    'App\\Phonebook' => $baseDir . '/app/Phonebook.php',
     'App\\Post' => $baseDir . '/app/Post.php',
     'App\\Product' => $baseDir . '/app/Product.php',
     'App\\Project' => $baseDir . '/app/Project.php',

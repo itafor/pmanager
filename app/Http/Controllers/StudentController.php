@@ -21,7 +21,7 @@ class StudentController extends Controller
         $students = Student::join('subjects','students.id','=','subjects.student_id')
         ->selectRaw('subjects.name, students.firstname,
         students.middlename,students.lastname,students.email,students.phone,
-        students.stdaddress,students.maritalstatus,students.created_at,
+        students.stdaddress,students.maritalstatus,students.created_at,id
         CONCAT(students.firstname,"  ",students.middlename,"  ",students.lastname) AS fullname, students.id
         ')->get();
         return view('ajax.studentList',compact('students'));
